@@ -1,0 +1,102 @@
+* {
+  font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 23px;
+}
+
+body {
+  background: rgb(244, 248, 249) ;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 30px 35px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 5px;
+}
+
+.tw-header {
+  display: block;
+  color: #000;
+  font-weight: 700;
+}
+
+.tw-header img + .tw-header-name{
+  display: block;
+  margin-top: -59px;
+  margin-left: 58px;
+}
+
+.tw-header-name,.tw-header-button {
+  display: block;
+  margin-top: -53px;
+}
+
+.tw-header-button {
+  float: right;
+}
+
+.tw-header-button button {
+  padding: 9px 19px;
+  background: #fff;
+  border: 1.5px solid rgb(85, 172, 238);
+  border-radius: 5px;
+  font-weight: 700;
+  color: rgb(85, 172, 238);
+}
+
+.tw-header-button button span{
+  font-size: 21px;
+  padding-left: 5px;
+}
+
+.tw-header-name {
+  position: relative;
+  margin-top: -3px;
+}
+
+.tw-header-name .name {
+  display: block;
+  vertical-align: top;
+  margin-left: 13px;
+}
+
+.tw-header-name .userName {
+  margin-left: 7px;
+  color: rgb(104, 109, 129);
+  font-size: 20px;
+}
+
+.tw-body {
+  margin-top: 22px;
+  margin-left: 1px;
+  line-height: 30px;
+}
+
+.tw-body span {
+  display: block;
+}
+
+.tw-body span.share > * {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.tw-body .date {
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+.tw-body span.share span {
+  margin-left: 27px;
+  font-size: 21px;
+}
+
+.tw-body span.share span.favorite {
+  margin-left: 20px;
+  font-size: 21px;
+}
+
+.userName, .share, .date {
+  color: rgb(104, 109, 129);
+}
